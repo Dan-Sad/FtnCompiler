@@ -1,11 +1,11 @@
-# FortranCompiler
-![Logo]()
+# FtnCompiler
+![Logo](https://github.com/Dan-Sad/LexAnalizer/blob/master/LexAnalyzer/img/LogoFtnCompiler.png)
 # Description
 It's simple Fortran compiler, written in C. 
 
-FortranCompiler generates code in assembly.
+FtnCompiler generates code in assembly.
 # Syntactic possibilities
-FortranCompiler can parse basic syntactic:
+FtnCompiler can parse basic syntactic:
 
 Keywords
 ```
