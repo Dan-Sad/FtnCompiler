@@ -8,14 +8,14 @@ FtnCompiler generates code in assembly.
 FtnCompiler can parse basic syntactic:
 
 Keywords
-```
+```fortran
 program     end     int     double            
 while       for     exit    do
 if          then    else
 ```
 
 Operators
-```
+```fortran
 +     -     *     /     %     =
 >     <     >=    <=    ==    !=
 :     ::    (     )     .     ,
@@ -24,7 +24,7 @@ Operators
 # Example
 
 To find 5 factorial
-```
+```fortran
 program test
 int :: x, y, i
 x = 1
@@ -37,7 +37,7 @@ end do
 end program test
 ```
 It will generate assembly code:
-```
+```assembly
 mov eax, 1
 mov eax, 2
 mov eax, 5
